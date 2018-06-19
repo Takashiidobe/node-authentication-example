@@ -1,0 +1,1 @@
+Working example of authentication in node using passport

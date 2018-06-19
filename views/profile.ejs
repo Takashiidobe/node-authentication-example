@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+  <title>Profile</title>
+</head>
+<body>
+  Welcome to your profile, <%= username %>
+  <hr>
+  Click this button to log out!
+  <br>
+
+  <button id="log-out">Log out</button>
+  <script>
+  const logOut = document.getElementById('log-out');
+  logOut.addEventListener('click', () => {
+    location.href = "/logout"
+  })
+  </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+1. Allow for local authentication using passport.local
+2. Allow for google auth with Oauth2.0
